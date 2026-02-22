@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "send-email.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/send-email.js"
+    }
+  ]
+}

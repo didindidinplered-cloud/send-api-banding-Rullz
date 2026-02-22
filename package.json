@@ -1,0 +1,12 @@
+{
+  "name": "vercel-email-api",
+  "version": "1.0.0",
+  "description": "Email API for Telegram Bot",
+  "main": "send-email.js",
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  },
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
